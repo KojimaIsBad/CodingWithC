@@ -18,10 +18,11 @@ int main(){
 		}
 		//默认为升序排序 
 		sort(arr,arr+num);
-		for(int i:arr){
-			printf("%d",i);
+		for(int i=0;i<num;i++){
+			printf("%d",arr[i]);
 		}
 		printf("\n");
 	}
-	
+	//不要忘记return 0; 
+	return 0;
 } 
